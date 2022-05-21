@@ -1,4 +1,4 @@
-
+p
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
@@ -35,8 +35,10 @@ body {
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
-  text-align: center;
+  text-align: center
 }
+
+
 img {
   display: block;
   margin: 0 auto;
