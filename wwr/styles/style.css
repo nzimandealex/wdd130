@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Rubik+Moonrocks&display=swap');
+
+main {
+    font-family: 'Rubik Moonrocks', cursive;
+  }
+  
+
 body {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +13,7 @@ body {
     font-size: 18px;
     text-align: center
   }
+
 
 
 #content {
@@ -20,13 +29,28 @@ body {
 
 body {
     background-color: #bac8d8; 
+    font-family: 'Macondo', cursive;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2{
+    margin: 0;
+}
+
 header {
     background-color: #4d7cb9;
 }
 
+#logo_link {
+    padding: 5px;
+}
+
 nav a {
+
     color: black;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #fb8500;
@@ -34,24 +58,37 @@ nav a:hover {
 }
 
 .home-title{
+    font-family: 'Macondo', cursive;
+    font-size: 2em;
     color: black;
+    margin-top: 10px;
 
 }
 
 h4 {
     color: black;
 }
-.book {
+.book, .join {
+    font-size: 18px;
     background-color: #023047; 
     color: #d9c2a3;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.join {
-    background-color: #023047; 
-    color: #d9c2a3;
-    text-decoration: none;
+.card-img {
+    border: 10px solid #d9c2a3;
 }
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card  { 
+    margin: 200px 0;
+} 
+
 .book:hover{
     background-color: #fb8500;
     color: #d9c2a3; 
@@ -67,7 +104,9 @@ h4 {
 }
 
 .msg p {
+    font-size: 8em;
     color: #d9c2a3;
+    padding-bottom: 15px;
 }
 
 
@@ -75,10 +114,14 @@ h4 {
     background-color: #023047; 
 }
 .msg {
-    background-color: #023047; 
+    background-color: #023047;
+    line-height: 1.5em; 
+    padding: 35px;
 }
 footer {
     background-color: #023047; 
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color: black;
@@ -93,11 +136,16 @@ footer a:hover {
     color: #fb8500;
 }
 
-.icon {
-    width: 80px;
+footer .social img {
+    padding-top: 15px;
 }
 
-''
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+
 .logo {
     width: 80px;
 }
